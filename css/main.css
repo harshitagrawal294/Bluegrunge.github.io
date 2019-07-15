@@ -2091,6 +2091,7 @@ input::-moz-focus-inner {
 
 .home-content__main {
   padding-right: 28rem;
+  padding-left: 4rem;
   position: relative;
   max-width: 1400px;
 }
