@@ -2091,7 +2091,6 @@ input::-moz-focus-inner {
 
 .home-content__main {
   padding-right: 28rem;
-  padding-left: 4rem;
   position: relative;
   max-width: 1400px;
 }
@@ -2820,7 +2819,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 4rem;
+  padding-top: 15rem;
   padding-bottom: 18rem;
   background-color: #FFFFFF;
   position: relative;
@@ -2999,7 +2998,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1200px) {
   .s-works {
-    padding-top: 2rem;
+    padding-top: 16.2rem;
   }
 
   .item-folio__title {
