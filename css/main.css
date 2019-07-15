@@ -2091,11 +2091,7 @@ input::-moz-focus-inner {
 
 .home-content__main {
   padding-right: 28rem;
-<<<<<<< HEAD
   padding-left: 4rem;
-=======
-  padding-left:4rem;
->>>>>>> c8e2a8ded4137ce230505ee9e557447e97b9747e
   position: relative;
   max-width: 1400px;
 }
