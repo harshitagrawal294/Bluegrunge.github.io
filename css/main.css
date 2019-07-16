@@ -1934,7 +1934,7 @@ input::-moz-focus-inner {
 
   .header-logo {
     left: 40px;
-    top: 3rem;
+    top: -3rem;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -1942,7 +1942,7 @@ input::-moz-focus-inner {
 
   .header-logo img {
     width: 120px;
-    height: 34px;
+    height: auto;
   }
 
   .s-header.sticky .header-logo {
@@ -1954,7 +1954,7 @@ input::-moz-focus-inner {
   }
 
   .header-menu-toggle {
-    top: 3rem;
+    top: 1rem;
     right: 40px;
   }
 
