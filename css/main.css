@@ -1696,6 +1696,12 @@ input::-moz-focus-inner {
   z-index: 500;
 }
 
+.s-header__team{
+    position: sticky !important;
+    top: 0 !important;
+    margin-top: 4.2rem;
+}
+
 .s-header > .row {
   position: relative;
   height: 72px;
@@ -1925,6 +1931,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width:800px) {
   .s-header {
     top: 0;
+    margin-top: 0;
   }
 
   .s-header > .row {
