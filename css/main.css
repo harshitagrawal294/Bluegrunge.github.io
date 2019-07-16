@@ -1696,6 +1696,12 @@ input::-moz-focus-inner {
   z-index: 500;
 }
 
+.s-header__team{
+    position: sticky !important;
+    top: 0 !important;
+    margin-top: 4.2rem;
+}
+
 .s-header > .row {
   position: relative;
   height: 72px;
@@ -1925,6 +1931,7 @@ input::-moz-focus-inner {
 @media only screen and (max-width:800px) {
   .s-header {
     top: 0;
+    margin-top: 0;
   }
 
   .s-header > .row {
@@ -1934,7 +1941,7 @@ input::-moz-focus-inner {
 
   .header-logo {
     left: 40px;
-    top: 3rem;
+    top: -3rem;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -1942,7 +1949,7 @@ input::-moz-focus-inner {
 
   .header-logo img {
     width: 120px;
-    height: 34px;
+    height: auto;
   }
 
   .s-header.sticky .header-logo {
@@ -1954,7 +1961,7 @@ input::-moz-focus-inner {
   }
 
   .header-menu-toggle {
-    top: 3rem;
+    top: 1rem;
     right: 40px;
   }
 
