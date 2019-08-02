@@ -3290,7 +3290,6 @@ html.no-csstransitions .home-content__main {
   border: none;
   text-align: center;
   padding: 2.4rem 4rem;
-  height: 30vw;
 }
 
 .item-client a {
@@ -3325,11 +3324,8 @@ html.no-csstransitions .home-content__main {
  * clients
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
-  padding-top: 16.2rem;
-  padding-bottom: 16.2rem;
 
   .item-client {
-    height: 65vw;
     margin-bottom: 5rem;
   }
 }
@@ -3337,7 +3333,6 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1000px) {
   .item-client {
     padding: 1.5rem 3rem;
-    height: 50vw;
   }
 
   .item-client img {
