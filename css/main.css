@@ -3260,9 +3260,19 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 18rem;
   background-color: #2a2a2a;
   position: relative;
+  color: #fff;
 }
 
-.s-clients a {
+.item-client h3{
+  color:#fff;
+}
+
+.item-client p{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.s-clients a ,
+.subhead{
   color: #F26522;
 }
 
@@ -3277,11 +3287,10 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-client {
-  border-color: rgba(255, 255, 255, 0.05);
-  border-width: 1px;
-  border-style: none solid solid none;
+  border: none;
   text-align: center;
-  padding: 2.4rem 0;
+  padding: 2.4rem 4rem;
+  height: 30vw;
 }
 
 .item-client a {
@@ -3318,11 +3327,17 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1200px) {
   padding-top: 16.2rem;
   padding-bottom: 16.2rem;
+
+  .item-client {
+    height: 65vw;
+    margin-bottom: 5rem;
+  }
 }
 
 @media only screen and (max-width:1000px) {
   .item-client {
-    padding: 1.5rem 0;
+    padding: 1.5rem 3rem;
+    height: 50vw;
   }
 
   .item-client img {
@@ -3332,19 +3347,6 @@ html.no-csstransitions .home-content__main {
   }
 
 }
-
-@media only screen and (max-width:800px) {
-  .item-client:nth-child(n) {
-    border-style: none solid solid none;
-  }
-
-  .item-client:nth-child(3n) {
-    border-style: none none solid none;
-  }
-
-  .item-client:nth-last-child(-n+2) {
-    border-bottom-style: none;
-  }
 
 }
 
