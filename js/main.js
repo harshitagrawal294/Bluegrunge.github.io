@@ -17,13 +17,8 @@ $('.scroll').on('click',function(e){
     },1000,'swing');
 });
 
-// if we have anchor on the url (calling from other page)
-if(window.location.hash){
-    // smooth scroll to the anchor id
-    $('html,body').animate({
-        scrollTop:$(window.location.hash).offset().top + 'px'
-        },1000,'swing');
-    }
+
+
 });
 
 (function($) {
@@ -57,8 +52,20 @@ if(window.location.hash){
 
         $WIN.on('load', function() {
 
+
+
             //force page scroll position to top at page refresh
             $('html, body').animate({ scrollTop: 0 }, 'normal');
+
+
+            // if we have anchor on the url (calling from other page)
+            if(window.location.hash){
+                // smooth scroll to the anchor id
+                $('html,body').animate({
+                    scrollTop:$(window.location.hash).offset().top + 'px'
+                    },1000,'swing');
+                }
+            
 
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
